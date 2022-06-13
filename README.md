@@ -1,5 +1,3 @@
-## scalafixAll --check
-
 Works with 3.1.3-RC4
 
 On 3.1.3-RC5 throws
