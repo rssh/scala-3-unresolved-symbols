@@ -15,6 +15,4 @@ lazy val root = project
     scalaVersion := scala3Version,
     scalacOptions += "-Xcheck-macros",
 
-    libraryDependencies += "org.scalameta" %% "munit" % "0.7.29" % Test,
-    libraryDependencies += "com.github.rssh" %% "dotty-cps-async" % "0.9.9"
   )
