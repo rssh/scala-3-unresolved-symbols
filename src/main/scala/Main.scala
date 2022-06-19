@@ -7,6 +7,7 @@ import scala.concurrent.ExecutionContext
 def hello: Future[?] = {
 
   given ExecutionContext = ExecutionContext.global
+  given printCode: cps.macros.flags.PrintCode.type = cps.macros.flags.PrintCode;
 
   async {
     val a: Seq[Generic[?]] = null
